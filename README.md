@@ -32,4 +32,11 @@ conda --version
 
 ##### If it is not found, **[install Anaconda](https://www.anaconda.com/products/distribution)** before proceeding with setting up your environment.
 
+##### Then, within an active virtual environment, install package dependencies:
+
+```
+pip install -r requirements.txt
+```
+
 ##### When successfully in the program environment, use the following code in the command-line to demonstrate your ability to run the Python script:
+
