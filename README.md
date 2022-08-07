@@ -40,3 +40,6 @@ pip install -r requirements.txt
 
 ##### When successfully in the program environment, use the following code in the command-line to demonstrate your ability to run the Python script:
 
+```
+python cocktail_hour.py
+```
