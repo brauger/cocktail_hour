@@ -1,10 +1,10 @@
 import requests
 import json
 import pandas as pd
-
 import PySimpleGUI as sg
 
-	
+#GUI using PsImpleGUI. Credit to: https://www.geeksforgeeks.org/introduction-to-pysimplegui/
+
 sg.theme('BluePurple')
 
 layout = [[sg.Text('Hello! Welcome to Cocktail Hour What is your name?:'),
@@ -28,6 +28,7 @@ while True:
 
 window.close()
 
+#Fetching data. Adapted code from professor's non-alcoholic class example.
 
 random_cocktail="https://www.thecocktaildb.com/api/json/v1/1/random.php"
 
@@ -37,6 +38,8 @@ dict_random_cocktail=json.loads(data.text)
 
 df=pd.DataFrame(dict_random_cocktail)
 #print(f"Number of random cocktails: {len(df)}")
+
+#Welcome message and user input
 
 print(f"Hello {values['-IN-']} and welcome to the Cocktail Hour! Would you like to live on the edge and see what new recipe we have in store for you? ")
 
