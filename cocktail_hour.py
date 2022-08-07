@@ -2,6 +2,33 @@ import requests
 import json
 import pandas as pd
 
+import PySimpleGUI as sg
+
+	
+sg.theme('BluePurple')
+
+layout = [[sg.Text('Hello! Welcome to Cocktail Hour What is your name?:'),
+		sg.Text(size=(15,1), key='-OUTPUT-')],
+		[sg.Input(key='-IN-')],
+		[sg.Button('Display'), sg.Button('Exit')]]
+
+window = sg.Window('Introduction', layout)
+
+while True:
+	event, values = window.read()
+	print(event, values)
+	
+	if event in (None, 'Exit'):
+		break
+	
+	if event == 'Display':
+		# Update the "output" text element
+		# to be the value of "input" element
+		window['-OUTPUT-'].update(values['-IN-'])
+
+window.close()
+
+
 random_cocktail="https://www.thecocktaildb.com/api/json/v1/1/random.php"
 
 data=requests.get(random_cocktail)
@@ -9,9 +36,9 @@ data=requests.get(random_cocktail)
 dict_random_cocktail=json.loads(data.text)
 
 df=pd.DataFrame(dict_random_cocktail)
-print(f"Number of random cocktails: {len(df)}")
+#print(f"Number of random cocktails: {len(df)}")
 
-print("Hello and welcome to the Cocktail Hour! Would you like to live on the edge and see what new recipe we have in store for you? ")
+print(f"Hello {values['-IN-']} and welcome to the Cocktail Hour! Would you like to live on the edge and see what new recipe we have in store for you? ")
 
 user = input("Yes or no?")
 user = user.lower()
