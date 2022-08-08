@@ -48,7 +48,8 @@ user = user.lower()
 
 
 if user in ["no"]:
-    print("That's ok. Come back for new cocktail recipes whenever you like!") 
+    print("That's ok. Come back for new cocktail recipes whenever you like!")
+    exit()
 else:
     
     
