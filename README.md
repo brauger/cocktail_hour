@@ -43,3 +43,6 @@ pip install -r requirements.txt
 ```
 python cocktail_hour.py
 ```
+
+# Testing
+

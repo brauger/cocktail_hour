@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import PySimpleGUI as sg
 
+from user_input import user_input
 #GUI using PsImpleGUI. Credit to: https://www.geeksforgeeks.org/introduction-to-pysimplegui/
 
 sg.theme('BluePurple')
@@ -45,13 +46,11 @@ print(f"Hello {values['-IN-']} and welcome to the Cocktail Hour! Would you like 
 
 user = input("Yes or no?")
 user = user.lower()
-
-
-if user in ["no"]:
-    print("That's ok. Come back for new cocktail recipes whenever you like!")
-    exit()
-else:
     
+response = user_input(user)
+
+
+if response == 'True':    
     
 
     #print(f"Number of random cocktails: {len(df)}")
