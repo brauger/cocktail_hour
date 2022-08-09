@@ -1,5 +1,5 @@
 
-# Welcome to Cocktail Hour
+# Welcome to Cocktail Hour!
 
 # Purpose
 
