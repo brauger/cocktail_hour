@@ -52,7 +52,7 @@ pip install -r requirements.txt
 python cocktail_hour.py
 ```
 
-###### Once you have run the program, a window will pop up prommpting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
+###### Once you have run the program, a window will pop up prompting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
 
 # Testing
 
