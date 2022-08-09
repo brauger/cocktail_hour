@@ -53,11 +53,11 @@ python cocktail_hour.py
 ```
 # Program Tips
 
-##### When you execute the above command on the command line, a pop up will appear to ask you to enter your name. After you enter your name, click "Display" and then click "Exit" to continue with the program. 
+
+
+##### Once you have run the program, a window (see example below) will pop up prompting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
 
 ![Pop up image](https://imgur.com/a/7z57DmL.png)
-
-###### Once you have run the program, a window will pop up prompting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
 
 # Testing
 
