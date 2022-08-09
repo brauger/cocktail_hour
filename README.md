@@ -43,6 +43,11 @@ pip install -r requirements.txt
 ```
 python cocktail_hour.py
 ```
+# Program Tips
+
+##### When you execute the above command on the command line, a pop up will appear to ask you to enter your name. After you enter your name, click "Display" and then click "Exit" to continue with the program. 
+
+![Pop up image](https://imgur.com/a/7z57DmL.png)
 
 # Testing
 
