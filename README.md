@@ -46,3 +46,8 @@ python cocktail_hour.py
 
 # Testing
 
+##### When you want to run and a test and make sure the program is running correctly, run the following on your computer's command line:
+
+```
+pytest
+```
