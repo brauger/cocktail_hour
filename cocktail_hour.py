@@ -53,7 +53,7 @@ if user in ["no"]:
 
 valid_options = ['yes', 'no']
 if (user not in valid_options):
-    print('Not a valid option, please enter yes or no so you can get to your drink faster!')
+    print('Not a valid option, please run the program again and enter yes or no so you can get to your drink faster!')
     exit()
 
 response = user_input(user)
