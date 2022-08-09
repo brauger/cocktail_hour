@@ -1,4 +1,10 @@
 
+# Welcome to Cocktail Hour!
+
+# Purpose
+
+##### If you like to explore new cocktails and even make them for yourself at home or for friends, this is the app for you! You can receive randomized cocktail recipes by running Cocktail Hour.
+
 # Installation
 
 ##### In order to search and find your cocktail recipe, you will need to clone the repository to your local computer.
@@ -38,11 +44,15 @@ conda --version
 pip install -r requirements.txt
 ```
 
+# Running Cocktail Hour
+
 ##### When successfully in the program environment, use the following code in the command-line to demonstrate your ability to run the Python script:
 
 ```
 python cocktail_hour.py
 ```
+
+###### Once you have run the program, a window will pop up prommpting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
 
 # Testing
 
