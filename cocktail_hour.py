@@ -48,6 +48,9 @@ user = input("Yes or no?")
 user = user.lower()
 user = user.strip()
 
+if user in ["no"]:
+    print("That's ok. Come back for new cocktail recipes whenever you like!") 
+
 valid_options = ['yes', 'no']
 if (user not in valid_options):
     print('Not a valid option, please enter yes or no so you can get to your drink faster!')
