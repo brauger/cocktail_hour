@@ -46,7 +46,16 @@ print(f"Hello {values['-IN-']} and welcome to the Cocktail Hour! Would you like 
 
 user = input("Yes or no?")
 user = user.lower()
-    
+user = user.strip()
+
+if user in ["no"]:
+    print("That's ok. Come back for new cocktail recipes whenever you like!") 
+
+valid_options = ['yes', 'no']
+if (user not in valid_options):
+    print('Not a valid option, please run the program again and enter yes or no so you can get to your drink faster!')
+    exit()
+
 response = user_input(user)
 
 
@@ -154,5 +163,6 @@ if response == 'True':
             print(f"{df2['strIngredient15'][x]} {df2['strMeasure15'][x]}")     
     
         print(f"Recipe Instructions: {df2['strInstructions'][x]}")
+        print('Drink up, and cheers!')
 
 

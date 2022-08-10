@@ -51,8 +51,12 @@ pip install -r requirements.txt
 ```
 python cocktail_hour.py
 ```
+# Program Tips
 
-###### Once you have run the program, a window will pop up prompting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
+##### Once you have run the program, a window (see example below) will pop up prompting you to enter your name. Enter your name, select "Display" and then "Exit" to proceed with the program.
+
+![Image](https://imgur.com/Ios4Q64.png)
+
 
 # Testing
 
